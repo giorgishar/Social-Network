@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %} Home {% endblock%}
+
+{% block content %}
+<div class="jumbotron">
+    <hi class="display-4">Social Network</h1>
+    <p class="lead">For A Better World</p>
+    <p class="lead">
+        <a class="btn tbn-primary btn-lg" href="{% url 'post_list' %}">View Messages</a>
+    </p>
+</div>
+{% endblock %}
